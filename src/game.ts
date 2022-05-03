@@ -64,7 +64,7 @@ engine.addEntity(thanks)
  
  
  
-//TITULO
+//TITLE
 testSh.addComponent(new TextShape("Ezequiel Porco CV"))
 testSh.getComponent(TextShape).shadowOffsetY = 2
 //testSh.getComponent(TextShape).shadowBlur = 0.1
@@ -116,7 +116,7 @@ techstack.getComponent(TextShape).color =Color3.Black()
 
 techstack.addComponent(new Transform({ position: new Vector3(10, 11, 80) }));
 
-//interests
+//INTERESTS
  
 interest.addComponent(new TextShape("Interests"))
 interest.getComponent(TextShape).fontSize = 8
@@ -141,7 +141,7 @@ inters.addComponent(new Transform({ position: new Vector3(10, 11, 100) }));
 
 
 
-//thanks
+//THANKS
 
 thanks.addComponent(new TextShape("Thanks!\nhope you enjoyed it :)"))
 thanks.getComponent(TextShape).fontSize = 12
@@ -153,9 +153,9 @@ thanks.getComponent(TextShape).color =Color3.Black()
 
 thanks.addComponent(new Transform({ position: new Vector3(10, 12, 150) }));
 
-//Spheres -
+//BOXES -
  
-// Spheres starting position
+// boxes starting position
 forma.addComponent(new Transform({ position: new Vector3(15, 5, 20) }))
 forma2.addComponent(new  Transform({ position: new Vector3(13, 4, 20)}))
 forma3.addComponent(new  Transform({ position: new Vector3(3, 5, 20)}))//
@@ -178,7 +178,7 @@ forma19.addComponent(new Transform({position: new Vector3(10 ,2 , 160)}))//
 forma20.addComponent(new Transform({position: new Vector3(11 ,2 , 160)}))
  
  
-// Blue Sphere
+// 0
 //Create material and configure its fields
 const myMaterial = new Material()
 myMaterial.albedoColor = Color3.Blue()
@@ -186,21 +186,21 @@ myMaterial.albedoColor = Color3.Blue()
 forma.addComponent(myMaterial)
  
  
-//Yellow Sphere
+// 1
 //Create material and configure its fields
 const myMaterial2 = new Material()
 myMaterial2.albedoColor = Color3.Red()
 //Assign the material to the entity
 forma2.addComponent(myMaterial2)
  
-// Blue Sphere
+// 2
 //Create material and configure its fields
 const myMaterial3 = new Material()
 myMaterial3.albedoColor = Color3.Magenta()
 //Assign the material to the entity
 forma3.addComponent(myMaterial3)
  
-// Purple Sphere
+// 3
 //Create material and configure its fields
 const myMaterial4 = new Material()
 myMaterial4.albedoColor = Color3.Red()
@@ -208,28 +208,28 @@ myMaterial4.albedoColor = Color3.Red()
 forma4.addComponent(myMaterial4)
  
  
-// Blue Sphere
+// 4
 //Create material and configure its fields
 const myMaterial5 = new Material()
 myMaterial5.albedoColor = Color3.White()
 //Assign the material to the entity
 forma5.addComponent(myMaterial5)
  
-//Create material and configure its fields
+// 5
 const myMaterial6 = new Material()
 myMaterial6.albedoColor = Color3.Yellow()
 //Assign the material to the entity
 forma6.addComponent(myMaterial6)
  
  
-//Create material and configure its fields
+// 6
 const myMaterial7 = new Material()
 myMaterial7.albedoColor = Color3.Yellow()
 //Assign the material to the entity
 forma7.addComponent(myMaterial7)
  
  
-//Create material and configure its fields
+// 7
 const myMaterial8 = new Material()
 myMaterial8.albedoColor = Color3.Magenta()
 //Assign the material to the entity
@@ -237,67 +237,66 @@ forma8.addComponent(myMaterial8)
  
  
  
-//Create material and configure its fields
+// 8
 const myMaterial9 = new Material()
 myMaterial9.albedoColor = Color3.Magenta()
 //Assign the material to the entity
 forma9.addComponent(myMaterial9)
  
  
-//Create material and configure its fields
+// 9
 const myMaterial10 = new Material()
 myMaterial10.albedoColor = Color3.Red()
 //Assign the material to the entity
 forma10.addComponent(myMaterial10)
  
-///////////////////
  
-//Create material and configure its fields
+// 11
 const myMaterial11 = new Material()
 myMaterial11.albedoColor = Color3.Blue()
 //Assign the material to the entity
 forma11.addComponent(myMaterial11)
  
-//Create material and configure its fields
+// 12
 const myMaterial12 = new Material()
 myMaterial.albedoColor = Color3.Blue()
 //Assign the material to the entity
 forma12.addComponent(myMaterial12)
  
-//Create material and configure its fields
+// 13
 const myMaterial13 = new Material()
 myMaterial13.albedoColor = Color3.Magenta()
 //Assign the material to the entity
 forma13.addComponent(myMaterial13)
  
-//Create material and configure its fields
+// 14
 const myMaterial14 = new Material()
 myMaterial14.albedoColor = Color3.Blue()
 //Assign the material to the entity
 forma14.addComponent(myMaterial14)
  
  
-//Create material and configure its fields
+// 15
 const myMaterial15 = new Material()
 myMaterial15.albedoColor = Color3.Red()
 //Assign the material to the entity
 forma15.addComponent(myMaterial15)
  
  
-//Create material and configure its fields
+// 16
 const myMaterial16 = new Material()
 myMaterial16.albedoColor = Color3.Yellow()
 //Assign the material to the entity
 forma16.addComponent(myMaterial16)
  
-//Create material and configure its fields
+// 17
 const myMaterial17 = new Material()
 myMaterial17.albedoColor = Color3.White()
 //Assign the material to the entity
 forma17.addComponent(myMaterial17)
  
  
-//Create material and configure its fields
+// 18
 const myMaterial18 = new Material()
 myMaterial18.albedoColor = Color3.Blue()
 //Assign the material to the entity
@@ -305,14 +304,14 @@ forma18.addComponent(myMaterial18)
  
  
  
-//Create material and configure its fields
+// 19
 const myMaterial19 = new Material()
 myMaterial19.albedoColor = Color3.Green()
 //Assign the material to the entity
 forma19.addComponent(myMaterial19)
  
  
-//Create material and configure its fields
+// 20
 const myMaterial20 = new Material()
 myMaterial20.albedoColor = Color3.Red()
 //Assign the material to the entity
@@ -320,7 +319,7 @@ forma20.addComponent(myMaterial20)
  
  
  
-// Spheres Movement
+// boxes Movement
  
 export class SimpleMove1 implements ISystem {
   update() {
@@ -582,33 +581,20 @@ forma11.addComponent(box)
 forma11.getComponent(BoxShape)
 forma12.addComponent(box)
 forma12.getComponent(BoxShape)
- 
 forma13.addComponent(box)
 forma13.getComponent(BoxShape)
- 
 forma14.addComponent(box)
 forma14.getComponent(BoxShape)
- 
 forma15.addComponent(box)
 forma15.getComponent(BoxShape)
- 
- 
 forma16.addComponent(box)
 forma16.getComponent(BoxShape)
- 
- 
 forma17.addComponent(box)
 forma17.getComponent(BoxShape)
- 
- 
 forma18.addComponent(box)
 forma18.getComponent(BoxShape)
- 
- 
 forma19.addComponent(box)
 forma19.getComponent(BoxShape)
- 
- 
 forma20.addComponent(box)
 forma20.getComponent(BoxShape)
  
